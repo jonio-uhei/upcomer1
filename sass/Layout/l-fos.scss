@@ -1,0 +1,102 @@
+.l-fos{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;
+    &__title{
+        font-size: 30q;
+        font-weight: bold;
+    }
+    &__img{
+        width: 60%;
+        margin:40px auto 0;
+        display: block;
+    }
+    &__subtitle{
+        font-size: 20px;
+    }
+    &__content{
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    &__subcontent{
+        font-size: 20px;
+        line-height:2em;
+        margin-top: 30px;
+    }
+    &__service{
+        position:relative;
+        margin-bottom: 250px;
+    }
+    &__service-field{
+        margin-top: 50px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__service-title{
+        background-color:#00b0f0;
+        font-size: 18px;
+        color:#fff;
+        text-align: center;
+        width: 400px;
+        padding: 15px 0;
+    }
+    &__service-wrap{
+        display: flex;
+        justify-content:space-around;
+        background-color:#e5f5f5;
+        padding: 60px 30px 30px 30px;
+        width: 900px;
+        position:absolute;
+        top:27px;
+        z-index:-1;
+    }
+    &__service-list{
+        margin-bottom: 15px;
+        line-height:2em;
+    }
+    &__start-field{
+        display: flex;
+        width: 90%;
+        margin-left:auto;
+        margin-right:auto;
+        align-items:center;
+        margin-top: 50px;
+        span{
+            font-size: 13px;
+            color:#444040;
+        }
+    }
+    &__start-title{
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    &__start-wrap{
+        display: flex;
+        align-items:center;
+    }
+    &__start-img{
+        display: block;
+        width: 100px;
+    }
+    &__start-content{
+        line-height:2em;
+         margin-left: 50px;
+    }
+    &__price-block{
+        margin-top: 50px;
+    }
+    &__price-lists{
+        margin-top: 30px;
+    }
+    &__price-title{
+        font-weight: bold;
+    }
+    &__price-list{
+        margin-bottom: 15px;
+        line-height:2em;
+    }
+}

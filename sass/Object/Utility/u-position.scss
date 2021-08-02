@@ -1,0 +1,32 @@
+.u-position1{
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index:1;
+    position:absolute;
+}
+.u-position2{
+    z-index:2;
+    margin-left: -131px;
+}
+.u-position3{
+    z-index:3;
+    margin-left: -131px;
+}
+.u-position4{
+    z-index:4;
+    margin-left: -131px;
+}
+.u-position5{
+    z-index:5;
+    margin-left: -131px;
+}
+.u-position6{
+    position:initial;
+}
+.u-position7{
+    position:absolute;
+    top:56px;
+    left:0px;
+    z-index:2;
+}

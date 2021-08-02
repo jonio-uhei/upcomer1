@@ -1,0 +1,258 @@
+.c-arrow1 {
+  position: relative;
+  top: 130px;
+  left: 5%;
+  display: block;
+  z-index: 2;
+}
+.c-arrow1__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.c-arrow1__text {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  font-size: 17px;
+}
+.c-arrow1__line {
+  width: 8px;
+  height: 382px;
+  content: "";
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 48px;
+  left: 22px;
+}
+.c-arrow1__chevron {
+  border-right: 8px solid #cdcbcb;
+  border-bottom: 8px solid #cdcbcb;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 409px;
+  left: -87px;
+}
+
+.c-arrow2 {
+  position: relative;
+  top: 130px;
+  left: 5%;
+  display: block;
+}
+.c-arrow2__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.c-arrow2__text {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  font-size: 17px;
+}
+.c-arrow2__line {
+  width: 8px;
+  height: 382px;
+  content: "";
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 48px;
+  left: 22px;
+}
+.c-arrow2__chevron {
+  border-right: 8px solid #cdcbcb;
+  border-bottom: 8px solid #cdcbcb;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 409px;
+  left: -87px;
+}
+
+.c-arrow3 {
+  position: relative;
+  top: 130px;
+  left: 5%;
+  display: block;
+}
+.c-arrow3__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.c-arrow3__text {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  font-size: 17px;
+}
+.c-arrow3__line {
+  width: 8px;
+  height: 382px;
+  content: "";
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 48px;
+  left: 22px;
+}
+.c-arrow3__chevron {
+  border-right: 8px solid #cdcbcb;
+  border-bottom: 8px solid #cdcbcb;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 409px;
+  left: -87px;
+}
+
+.c-arrow4 {
+  position: relative;
+  top: 130px;
+  left: 5%;
+  display: block;
+}
+.c-arrow4__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.c-arrow4__text {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  font-size: 17px;
+}
+.c-arrow4__line {
+  width: 8px;
+  height: 382px;
+  content: "";
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 48px;
+  left: 22px;
+}
+.c-arrow4__chevron {
+  border-right: 8px solid #cdcbcb;
+  border-bottom: 8px solid #cdcbcb;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 409px;
+  left: -87px;
+}
+
+.c-arrow5 {
+  position: relative;
+  top: 130px;
+  left: 5%;
+  display: block;
+}
+.c-arrow5__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.c-arrow5__text {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  font-size: 17px;
+}
+.c-arrow5__line {
+  width: 8px;
+  height: 382px;
+  content: "";
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 48px;
+  left: 22px;
+}
+.c-arrow5__chevron {
+  border-right: 8px solid #cdcbcb;
+  border-bottom: 8px solid #cdcbcb;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 409px;
+  left: -87px;
+}
+
+.c-arrow6 {
+  position: relative;
+  top: 130px;
+  left: 5%;
+  display: block;
+}
+.c-arrow6__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.c-arrow6__text {
+  position: absolute;
+  top: 19px;
+  left: 19px;
+  font-size: 17px;
+}
+.c-arrow6__line {
+  width: 8px;
+  height: 382px;
+  content: "";
+  background-color: #cdcbcb;
+  position: absolute;
+  top: 48px;
+  left: 22px;
+}
+.c-arrow6__chevron {
+  border-right: 8px solid #cdcbcb;
+  border-bottom: 8px solid #cdcbcb;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 100px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 409px;
+  left: -87px;
+}/*# sourceMappingURL=c-cir-arr-che.css.map */

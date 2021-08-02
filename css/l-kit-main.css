@@ -1,0 +1,28 @@
+.l-kit-main {
+  margin-top: 100px;
+  padding: 0 10px;
+}
+
+.l-kit-main__title {
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.l-kit-main__title span {
+  color: #AF292D;
+  font-weight: bold;
+}
+
+.l-kit-main__content {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+
+.l-kit-main__tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=l-kit-main.css.map */

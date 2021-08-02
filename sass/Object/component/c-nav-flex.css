@@ -1,0 +1,36 @@
+.c-nav-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+.c-nav-flex__link {
+  color: #000;
+  font-size: 20px;
+  display: block;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.c-nav-flex__list {
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.c-nav-flex--border {
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+.c-nav-flex__change1 {
+  width: 80px;
+}
+/*# sourceMappingURL=c-nav-flex.css.map */

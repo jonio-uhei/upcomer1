@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,iBAAiB;EACxB,KAAK,EAAC,OAAO;EACb,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,aAAa,EAAC,IAAI;CACrB",
+    "sources": [
+        "../sass/Object/component/c-item.scss"
+    ],
+    "names": [],
+    "file": "c-item.css"
+}

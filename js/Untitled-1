@@ -1,0 +1,45 @@
+//ここからパララックス
+$(function(){
+  $('.c-nav-flex__change1').hover(function(){
+    $('.c-nav-flex__change1').text('トップ').css('background','linear-gradient(to bottom right,#4197b6 ,#63de9f)');
+  },function(){
+    $('.c-nav-flex__change1').text('Top').css('background','none');
+  });
+})
+//ここまでパララックス
+
+
+//ここからスムーススクロール
+$(function(){
+  // #で始まるアンカーをクリックした場合に処理
+      $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          var speed = 500; // ミリ秒
+          // 移動先を取得
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+      });
+  });
+//ここまでスムーススクロール
+
+
+//マウスオーバーで矢印の色が変わる
+$(function(){
+  $('.c-arrow').hover(
+    function(){
+      $(this).find('.c-arrow__circle,.c-arrow__line').css('background-color','#4197c7');
+      $(this).find('.c-arrow__chevron').css('border-right','1px solid #4197c7');
+      $(this).find('.c-arrow__chevron').css('border-bottom','1px solid #4197c7');
+    },
+    function(){
+      $(this).find('.c-arrow__circle,.c-arrow__line').css('background-color','#cdcbcb');
+      $(this).find('.c-arrow__chevron').css('border-right','1px solid #cdcbcb');
+      $(this).find('.c-arrow__chevron').css('border-bottom','1px solid #cdcbcb');
+    }
+  )
+});

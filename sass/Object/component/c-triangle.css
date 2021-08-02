@@ -1,0 +1,88 @@
+.c-triangle {
+  width: 0;
+  height: 0;
+  border: 15px solid #4197c7;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid transparent;
+  margin-left: 20px;
+}
+
+.c-triangle-kit {
+  border: 60px solid #bfbfbf;
+  width: 0;
+  height: 0;
+  border-bottom: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+}
+.c-triangle-kit__wrap {
+  width: 124px;
+  margin: 50px auto 0;
+}
+
+.c-triangle-fos {
+  border: 400px solid #bfbfbf;
+  width: 0;
+  height: 0;
+  border-bottom: none;
+  border-right: 400px solid transparent;
+  border-left: 400px solid transparent;
+}
+.c-triangle-fos__wrap {
+  width: 62%;
+  margin: -150px auto 0;
+  z-index: -1;
+}
+
+.c-triangle-worphi1 {
+  width: 60px;
+  margin: 40px auto;
+}
+.c-triangle-worphi1__content {
+  border: 30px solid #bfbfbf;
+  width: 0;
+  height: 0;
+  border-bottom: none;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+
+.c-triangle-worphi2 {
+  width: 20px;
+  margin: 0 15px;
+}
+.c-triangle-worphi2__content {
+  border: 20px solid #65aad1;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid transparent;
+  border-right: none;
+  border-top: 20px solid transparent;
+}
+
+.c-triangle-worphi3 {
+  width: 20px;
+  margin: 15px auto;
+}
+.c-triangle-worphi3__content {
+  border: 20px solid #65aad1;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: none;
+}
+
+.c-triangle-worphi4 {
+  width: 20px;
+  margin: 15px auto;
+}
+.c-triangle-worphi4__content {
+  border: 20px solid #65aad1;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: none;
+}/*# sourceMappingURL=c-triangle.css.map */

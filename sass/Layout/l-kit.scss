@@ -1,0 +1,30 @@
+.l-kit-header{
+    padding: 10px 0;
+}
+
+.l-kit-main{
+    margin-top: 100px;
+    padding: 0 10px;
+    &__title{
+        font-size: 30px;
+        line-height:1.5em;
+        span{
+            color:#AF292D;
+            font-weight: bold;
+        }
+    }
+    &__content{
+        font-size: 18px;
+        line-height:1.5em;
+        margin-top: 20px;
+    }
+    &__tabs{
+        display: flex;
+        margin-top: 50px;
+    }
+    &__wrap{
+        width: 70%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

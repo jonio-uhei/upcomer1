@@ -1,0 +1,19 @@
+.c-link-wrap{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content:space-around;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    &__content{
+        display: block;
+        width: 25%;
+        background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
+        color:#fff;
+        font-size: 18px;
+        padding: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+}

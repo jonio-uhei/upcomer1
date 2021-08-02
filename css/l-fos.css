@@ -1,0 +1,131 @@
+.l-fos {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 70px;
+}
+
+.l-fos__title {
+  font-size: 30q;
+  font-weight: bold;
+}
+
+.l-fos__img {
+  width: 70%;
+  margin: 40px auto 0;
+  display: block;
+}
+
+.l-fos__subtitle {
+  font-size: 20px;
+}
+
+.l-fos__content {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.l-fos__subcontent {
+  font-size: 20px;
+  line-height: 2em;
+  margin-top: 30px;
+}
+
+.l-fos__service {
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.l-fos__service-field {
+  margin-top: 50px;
+}
+
+.l-fos__service-title {
+  background-color: #00b0f0;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  width: 400px;
+  padding: 15px 0;
+}
+
+.l-fos__service-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #e5f5f5;
+  padding: 60px 30px 30px 30px;
+  width: 700px;
+  position: absolute;
+  top: 27px;
+  z-index: -1;
+}
+
+.l-fos__service-list {
+  margin-bottom: 15px;
+  line-height: 2em;
+}
+
+.l-fos__start-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.l-fos__start-field span {
+  font-size: 13px;
+  color: #444040;
+}
+
+.l-fos__start-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.l-fos__start-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-fos__start-img {
+  display: block;
+  width: 100px;
+}
+
+.l-fos__start-content {
+  line-height: 2em;
+  margin-left: 50px;
+}
+
+.l-fos__price-block {
+  margin-top: 50px;
+}
+
+.l-fos__price-lists {
+  margin-top: 30px;
+}
+
+.l-fos__price-title {
+  font-weight: bold;
+}
+
+.l-fos__price-list {
+  margin-bottom: 15px;
+  line-height: 2em;
+}
+/*# sourceMappingURL=l-fos.css.map */

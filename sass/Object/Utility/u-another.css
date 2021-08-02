@@ -1,0 +1,94 @@
+.u-month {
+  display: block;
+  margin-top: 100px;
+}
+
+.u-all-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.u-size1 {
+  width: 85%;
+  height: 400px;
+}
+
+.u-list {
+  list-style: disc;
+}
+
+.u-initial {
+  text-align: initial;
+  line-height: 1.5em;
+}
+
+.u-nodisc {
+  list-style: none;
+  font-weight: bold;
+}
+
+.u-block {
+  display: block;
+}
+
+.u-inlineblock {
+  display: inline-block;
+  width: 70%;
+}
+
+.u-bold {
+  font-weight: bold;
+}
+
+.u-background {
+  background-image: url("../images/fos-img1.jpg");
+  padding-bottom: 54%;
+}
+
+.u-text-center1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 0 #000;
+  font-size: 65px;
+}
+.u-text-center1 span {
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.u-text-center2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.u-another-center1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.u-z-index {
+  z-index: 2;
+}
+
+.u-justify {
+  justify-content: space-around;
+}
+
+.u-borderright {
+  border-right: 1px solid transparent;
+}
+
+.u-another-background {
+  background: none;
+  padding-bottom: 0;
+}
+
+.u-another-border {
+  background: none;
+  border: 1px solid #65aad1;
+}
+
+.u-another-line {
+  height: 255px;
+}/*# sourceMappingURL=u-another.css.map */

@@ -1,0 +1,206 @@
+.l-worphi{
+    &__content{
+        width: 60%;
+        margin:30px auto 0;
+        line-height:2em;
+        font-size: 20px;
+    }
+    &__area{
+        margin-top: 70px;
+    }
+    &__area-border{
+        width: 55%;
+        height: 10px;
+        background: linear-gradient(to bottom right, #4197b6, #63de9f);
+        margin:0 auto;
+    }
+    &__area-title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+.l-worphi-field{
+    display: flex;
+    width: 50%;
+    margin: 40px auto 0;
+    justify-content:center;
+    &__left{
+        width: 27%;
+    }
+    &__right{
+        width: 45%;
+    }
+    &__left-box{
+        display: flex;
+        justify-content: space-around;
+        width: 46%;
+    }
+    &__content{
+        background-color:#bfbfbf;
+        text-align: center;
+        padding: 10px 0;
+        width: 200px;
+    }
+    &__left-lines{
+        width: 30px;
+    }
+    &__left-horizon{
+        width: 30px;
+        height: 2px;
+        background-color:#65aad1;
+    }
+    &__left-line{
+        height: 190px;
+        width: 2px;
+        background-color:#65aad1;
+        margin-left:auto;
+    }
+    &__block{
+        display: flex;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__line{
+        height: 20px;
+        width: 2px;
+        background-color:#65aad1;
+    }
+    &__line-block{
+        display: flex;
+        justify-content:space-between;
+        width: 500px;
+    }
+    &__horizon-line{
+        width: 500px;
+        height: 2px;
+        background-color:#65aad1;
+    }
+    &__horizon-area{
+        // display: flex;
+        // align-items:flex-end;
+        width: 500px;
+    }
+    &__right-content{
+        width: 250px;
+        padding: 15px 0;
+        border:1px solid #65aad1;
+        text-align: center;
+        margin-bottom: 20px;
+        background-color:#fff;
+    }
+    &__right-area{
+        position:relative;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+.l-worphi-theme{
+    &__block{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        margin: 40px auto auto;
+    }
+    &__title{
+        background: linear-gradient(to bottom right, #4197b6, #63de9f);
+        padding: 40px 0px;
+        width: 168px;
+        text-align: center;
+        line-height: 2em;
+    }
+    &__content{
+        width: 240px;
+        padding: 20px;
+        line-height:2em;
+    }
+    &--center{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    &__img{
+        width: 45%;
+        display: block;
+        margin:50px auto 0;
+    }
+}
+.l-worphi-result{
+    margin-top: 50px;
+    &__block{
+        margin: 40px auto 0;
+        width: 50%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+    &__block-title{
+        width: 150px;
+        height: 150px;
+        line-height:150px;
+        text-align: center;
+        color:#fff;
+        font-size: 20px;
+        border-radius:75px;
+        background: linear-gradient(to bottom right, #4197b6, #63de9f);
+    }
+    &__block-content{
+        width: 450px;
+        line-height:2em;
+    }
+    &__img{
+        width: 40%;
+        display: block;
+        margin:40px auto 0;
+    }
+}
+.l-worphi-seat{
+    width: 50%;
+    margin:40px auto 0;
+    &__block{
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-bottom: 40px;
+    }
+    &__img{
+        width: 150px;
+        height: 150px;
+        background-color:red;
+    }
+    &__content{
+        width: 500px;
+        line-height:2em;
+    }
+}
+.l-worphi-area{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 40px auto 0;
+    &__wrap{
+        width: 500px;
+    }
+    &__title{
+        padding: 20px;
+        background: linear-gradient(to bottom right, #4197b6, #63de9f);
+        width: 500px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color:#fff;
+    }
+    &__img1{
+        width: 90%;
+        display: block;
+    }
+    &__img2{
+        width: 50%;
+        img{
+            width: 60%;
+        }
+    }
+}
+
