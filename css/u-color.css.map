@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,OAAO;CAChB;;AACD,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,OAAO;CAChB;;AACD,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,OAAO;CAChB;;AACD,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,OAAO;CAChB;;AACD,AAAA,SAAS,CAAA;EACL,KAAK,EAAC,OAAO;CAChB",
+    "sources": [
+        "../sass/Object/Utility/u-color.scss"
+    ],
+    "names": [],
+    "file": "u-color.css"
+}

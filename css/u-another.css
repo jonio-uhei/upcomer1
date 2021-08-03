@@ -13,60 +13,8 @@
   height: 400px;
 }
 
-.u-position1 {
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  z-index: 1;
-}
-
-.u-position2 {
-  z-index: 2;
-  margin-left: -131px;
-}
-
-.u-position3 {
-  z-index: 3;
-  margin-left: -131px;
-}
-
-.u-position4 {
-  z-index: 4;
-  margin-left: -131px;
-}
-
-.u-position5 {
-  z-index: 5;
-  margin-left: -131px;
-}
-
-.u-position6 {
-  position: initial;
-}
-
 .u-list {
   list-style: disc;
-}
-
-.u-color1 {
-  color: #F5881F;
-}
-
-.u-color2 {
-  color: #5CB541;
-}
-
-.u-color3 {
-  color: #F0243D;
-}
-
-.u-color4 {
-  color: #13A661;
-}
-
-.u-color5 {
-  color: #7f7f7f;
 }
 
 .u-initial {
@@ -94,12 +42,14 @@
 
 .u-background {
   background-image: url("../images/fos-img1.jpg");
+  padding-bottom: 54%;
 }
 
 .u-text-center1 {
   text-align: center;
   color: #fff;
   text-shadow: 2px 2px 0 #000;
+  font-size: 65px;
 }
 
 .u-text-center1 span {
@@ -112,6 +62,12 @@
   font-size: 20px;
 }
 
+.u-another-center1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
 .u-z-index {
   z-index: 2;
 }
@@ -119,5 +75,23 @@
 .u-justify {
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.u-borderright {
+  border-right: 1px solid transparent;
+}
+
+.u-another-background {
+  background: none;
+  padding-bottom: 0;
+}
+
+.u-another-border {
+  background: none;
+  border: 1px solid #65aad1;
+}
+
+.u-another-line {
+  height: 255px;
 }
 /*# sourceMappingURL=u-another.css.map */

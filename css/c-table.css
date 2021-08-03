@@ -10,9 +10,10 @@
 }
 
 .c-table__th--color {
-  border: 1px solid #E0E0E0;
   color: #04A0E9;
   padding: 10px 0;
+  border-right: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 .c-table__block {
@@ -29,7 +30,7 @@
   text-align: initial;
   font-weight: bold;
   padding-left: 15px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .c-table__block-title span {
@@ -39,7 +40,8 @@
 .c-table__block-item {
   text-align: initial;
   list-style: disc;
-  margin-top: 10px;
+  margin-top: 15px;
+  line-height: 1.3em;
 }
 
 .c-table__block-lists {

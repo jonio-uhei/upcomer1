@@ -10,7 +10,7 @@
 }
 
 .l-fos__img {
-  width: 70%;
+  width: 60%;
   margin: 40px auto 0;
   display: block;
 }
@@ -39,6 +39,9 @@
 
 .l-fos__service-field {
   margin-top: 50px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .l-fos__service-title {
@@ -58,7 +61,7 @@
       justify-content: space-around;
   background-color: #e5f5f5;
   padding: 60px 30px 30px 30px;
-  width: 700px;
+  width: 900px;
   position: absolute;
   top: 27px;
   z-index: -1;

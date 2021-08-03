@@ -1,5 +1,6 @@
 .c-kit-wrap {
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .c-kit-wrap__title {
@@ -8,18 +9,17 @@
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
   display: block;
-  width: 70%;
-  margin: 100px auto 0;
+  margin-top: 100px;
   text-align: center;
 }
 
 .c-kit-wrap__subtitle {
-  font-size: 20px;
+  font-size: 18px;
   background-color: #f5f5f5;
-  width: 900px;
+  text-align: center;
   padding: 15px 0 15px 15px;
   border-radius: 20px;
-  margin: 50px auto 0;
+  margin-top: 50px;
 }
 
 .c-kit-wrap__img {
@@ -36,7 +36,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 50px auto 0;
-  width: 70%;
+  width: 85%;
 }
 
 .c-kit-wrap__constitution-box {
@@ -116,7 +116,7 @@
 .c-kit-wrap__content {
   margin: 30px auto 0;
   line-height: 1.5em;
-  font-size: 20px;
+  font-size: 18px;
   width: 58%;
 }
 
@@ -125,9 +125,6 @@
 }
 
 .c-kit-wrap__field {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +170,7 @@
 .c-kit-wrap__subtitle-content {
   margin: 30px auto 0;
   line-height: 1.5em;
-  font-size: 20px;
+  font-size: 18px;
   width: 70%;
 }
 

@@ -61,7 +61,7 @@
 }
 
 .u-width16 {
-  width: 70%;
+  width: 60%;
   display: block;
   margin: 40px auto 0;
 }
@@ -74,5 +74,34 @@
 
 .u-width18 {
   width: 110px;
+}
+
+.u-width19 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-width20 {
+  width: 40%;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.u-width21 {
+  width: 450px;
+}
+
+.u-width22 {
+  width: 253px;
+  margin: 0 auto;
+}
+
+.u-width23 {
+  width: 60%;
+}
+
+.u-width24 {
+  width: 70%;
 }
 /*# sourceMappingURL=u-width.css.map */

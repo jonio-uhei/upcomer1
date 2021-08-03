@@ -1,5 +1,5 @@
 .u-mt1 {
-  margin-top: 75%;
+  margin-top: 10%;
 }
 
 .u-mt2 {
@@ -11,7 +11,7 @@
 }
 
 .u-mt4 {
-  margin-top: 35%;
+  margin-top: 6%;
 }
 
 .u-mt5 {
@@ -28,6 +28,26 @@
 
 .u-mt8 {
   margin-top: 22%;
+}
+
+.u-mt9 {
+  margin-top: 100px;
+}
+
+.u-mt10 {
+  margin-top: 200px;
+}
+
+.u-mt11 {
+  margin-top: 15px;
+}
+
+.u-mt12 {
+  margin-top: 50px;
+}
+
+.u-mt13 {
+  margin-top: 350px;
 }
 
 .u-ml1 {
@@ -47,15 +67,23 @@
 }
 
 .u-ml5 {
-  margin-left: 300px;
+  margin-left: 191px;
 }
 
 .u-ml6 {
-  margin-left: 100px;
+  margin-left: 10%;
 }
 
 .u-ml7 {
-  margin-left: 619px;
+  margin-left: 0;
+}
+
+.u-ml8 {
+  margin-left: -97px;
+}
+
+.u-ml9 {
+  margin-left: 0 !important;
 }
 
 .u-mb1 {

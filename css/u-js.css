@@ -6,9 +6,11 @@
 .u-js-text-change1, .u-js-text-change2, .u-js-text-change3,
 .u-js-text-change4, .u-js-text-change5, .u-js-text-change6,
 .u-js-text-change7, .u-js-text-change8 {
-  padding: 5px;
+  padding: 5px 5px 0 5px;
   background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
   background: linear-gradient(to bottom right, #4197b6, #63de9f);
+  border-radius: 20px;
+  color: #fff;
 }
 
 .u-js-text-change1 {
@@ -118,5 +120,63 @@
   margin-top: 40px;
   line-height: 2em;
   font-size: 20px;
+}
+
+.u-js-left {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  opacity: 0;
+  -webkit-transition: opacity 1s,-webkit-transform 5s;
+  transition: opacity 1s,-webkit-transform 5s;
+  transition: opacity 1s,transform 5s;
+  transition: opacity 1s,transform 5s,-webkit-transform 5s;
+}
+
+.u-js-leftfadein {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.u-js-right {
+  -webkit-transform: translate(50px, 0);
+          transform: translate(50px, 0);
+  opacity: 0;
+  -webkit-transition: opacity 1s,-webkit-transform 5s;
+  transition: opacity 1s,-webkit-transform 5s;
+  transition: opacity 1s,transform 5s;
+  transition: opacity 1s,transform 5s,-webkit-transform 5s;
+}
+
+.u-js-rightfadein {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.u-js-topbtn {
+  position: fixed;
+  right: 10%;
+  bottom: 5%;
+  font-size: 40px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right bottom, from(#a0cbde), to(#afe9ce));
+  background: linear-gradient(to bottom right, #a0cbde, #afe9ce);
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 35px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 5;
+}
+
+.u-js-btnactive {
+  opacity: 1;
+  visibility: visible;
 }
 /*# sourceMappingURL=u-js.css.map */
