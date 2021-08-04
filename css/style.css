@@ -893,6 +893,7 @@ a {
   z-index: 4;
   width: 65%;
   padding-top: 10px;
+  padding-left: 20px;
 }
 
 .c-flex-nav > li {
@@ -2352,6 +2353,10 @@ a {
   margin-bottom: 50px;
 }
 
+.u-mb2 {
+  margin-bottom: 20px;
+}
+
 .u-absolute1 {
   top: 55px;
   left: 24%;
@@ -2490,11 +2495,6 @@ a {
 
 .u-z-index {
   z-index: 2;
-}
-
-.u-justify {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .u-borderright {
@@ -2792,6 +2792,11 @@ a {
 
 .u-width24 {
   width: 70%;
+}
+
+.u-width25 {
+  width: 25% !important;
+  height: 0 !important;
 }
 
 .u-bg1 {

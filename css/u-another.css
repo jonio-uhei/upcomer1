@@ -72,11 +72,6 @@
   z-index: 2;
 }
 
-.u-justify {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 .u-borderright {
   border-right: 1px solid transparent;
 }

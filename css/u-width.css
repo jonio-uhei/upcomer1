@@ -104,4 +104,9 @@
 .u-width24 {
   width: 70%;
 }
+
+.u-width25 {
+  width: 25% !important;
+  height: 0 !important;
+}
 /*# sourceMappingURL=u-width.css.map */

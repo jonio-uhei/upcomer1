@@ -1,11 +1,11 @@
 .c-flex-nav{
     display: flex;
     align-items:center;
-    // justify-content:space-around;
     position:fixed;
     z-index:4;
     width: 65%;
     padding-top: 10px;
+    padding-left: 20px;
     &>li{
         width: 140px;
         height: 100px;
@@ -119,5 +119,3 @@
     display: flex;
     flex-wrap:wrap;
 }
-
-
