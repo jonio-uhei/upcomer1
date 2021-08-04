@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=l-header.css.map */
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+.gnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.gnav > li {
+  /*親階層のみ幅を25%にする*/
+  width: 25%;
+  height: 100px;
+}
+
+/*全てのリスト・リンク共通*/
+.gnav li {
+  list-style: none;
+  position: relative;
+}
+
+.gnav li a {
+  background: #001b34;
+  border-right: 1px solid #eee;
+  color: #fff;
+  display: block;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+/*子階層以降共通*/
+.gnav li li {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.gnav li li a {
+  border-top: 1px solid #eee;
+}
+
+.gnav li:hover > ul > li {
+  height: 2rem;
+  overflow: visible;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  padding: 200px 20px 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, right top, from(#1a2980), to(#26d0ce));
+  background: linear-gradient(90deg, #1a2980, #26d0ce);
+}
+/*# sourceMappingURL=l-header.css.map */

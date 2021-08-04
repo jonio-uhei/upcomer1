@@ -92,4 +92,18 @@
   border-right: 20px solid transparent;
   border-top: none;
 }
+
+.c-triangle-worphi5 {
+  width: 20px;
+  margin: 15px auto;
+}
+
+.c-triangle-worphi5__content {
+  border: 20px solid #bfbfbf;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: none;
+}
 /*# sourceMappingURL=c-triangle.css.map */

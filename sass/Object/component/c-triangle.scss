@@ -84,3 +84,16 @@
         
     }
 }
+.c-triangle-worphi5{
+    width: 20px;
+    margin: 15px auto;
+    &__content{
+        border: 20px solid #bfbfbf;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: none;
+        
+    }
+}

@@ -7,8 +7,20 @@
           align-items: center;
   position: fixed;
   z-index: 4;
-  width: 100%;
+  width: 65%;
   padding-top: 10px;
+}
+
+.c-flex-nav > li {
+  width: 140px;
+  height: 100px;
+}
+
+.c-flex-nav a {
+  color: #000;
+  display: block;
+  text-align: center;
+  width: 140px;
 }
 
 .c-flex-nav__link {
@@ -16,7 +28,15 @@
   font-size: 18px;
   display: block;
   text-align: center;
-  padding: 5px;
+  padding: 5px 0;
+}
+
+.c-flex-nav__link:hover {
+  color: #fff;
+  padding: 5px 0;
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+  border-radius: 20px;
 }
 
 .c-flex-nav__list {
@@ -28,9 +48,44 @@
   margin-left: auto;
 }
 
+.c-flex-nav__mouseover li {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.c-flex-nav__mouseover li:hover {
+  height: 15px;
+  line-height: 15px;
+  overflow: visible;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.c-flex-nav__mouseover a {
+  font-size: 14px;
+}
+
+.c-flex-nav__mouseover a:hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px;
+}
+
 .c-flex-nav--border {
   border: 2px solid #000;
   padding: 10px;
+}
+
+.c-flex-nav li:hover > ul > li {
+  height: 15px;
+  line-height: 15px;
+  overflow: visible;
+  margin-top: 20px;
+  color: #fff;
 }
 
 .c-flex__functions {

@@ -1,44 +1,44 @@
 //ヘッダーナビをマウスオーバーした時のテキストの変化
 $(function(){
   $('.change1').hover(function(){
-    $('.change1').text('トップ').addClass('u-js-text-change1');
+    $('.change1').text('トップ');
   },function(){
-    $('.change1').text('Top').removeClass('u-js-text-change1');
+    $('.change1').text('Top');
   });
   $('.change2').hover(function(){
-    $('.change2').text('目的検索').addClass('u-js-text-change1');
+    $('.change2').text('目的検索');
   },function(){
-    $('.change2').text('Search').removeClass('u-js-text-change1');
+    $('.change2').text('Search');
   });
   $('.change3').hover(function(){
-    $('.change3').text('機能一覧').addClass('u-js-text-change1');
+    $('.change3').text('機能一覧');
   },function(){
-    $('.change3').text('Function').removeClass('u-js-text-change1');
+    $('.change3').text('Function');
   });
   $('.change4').hover(function(){
-    $('.change4').text('事例紹介').addClass('u-js-text-change1');
+    $('.change4').text('事例紹介');
   },function(){
-    $('.change4').text('Case').removeClass('u-js-text-change1');
+    $('.change4').text('Case');
   });
   $('.change5').hover(function(){
-    $('.change5').text('セキュリティ').addClass('u-js-text-change1');
+    $('.change5').text('セキュリティ');
   },function(){
-    $('.change5').text('Security').removeClass('u-js-text-change1');
+    $('.change5').text('Security');
   });
   $('.change6').hover(function(){
-    $('.change6').text('デモ体験').addClass('u-js-text-change1');
+    $('.change6').text('デモ体験');
   },function(){
-    $('.change6').text('Trial').removeClass('u-js-text-change1');
+    $('.change6').text('Trial');
   });
   $('.change7').hover(function(){
-    $('.change7').text('料金').addClass('u-js-text-change1');
+    $('.change7').text('料金');
   },function(){
-    $('.change7').text('Price').removeClass('u-js-text-change1');
+    $('.change7').text('Price');
   });
   $('.change8').hover(function(){
-    $('.change8').text('オプション').addClass('u-js-text-change1');
+    $('.change8').text('オプション');
   },function(){
-    $('.change8').text('Option').removeClass('u-js-text-change1');
+    $('.change8').text('Option');
   });
 })
 
