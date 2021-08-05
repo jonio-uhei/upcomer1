@@ -255,7 +255,46 @@
         left:-87px;
     }  
 }
-// .aaa{
-//     width: 80%;
-//     background-color:gold;
-// }
+.c-arrow7 {
+    position:relative;
+    top:130px;
+    left:5%;
+    display: block;
+    &__circle{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        background-color:#cdcbcb;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    &__text{
+        position:absolute;
+        top:19px;
+        left:19px;
+        font-size: 17px;
+    }
+    &__line{
+        width: 8px;
+        height: 382px;
+        content: '';
+        background-color: #cdcbcb;
+        position: absolute;
+        top:48px;
+        left:22px;
+    }
+    &__chevron{
+        border-right: 8px solid #cdcbcb;
+        border-bottom: 8px solid #cdcbcb;
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-left: 100px;
+        transform: rotate(45deg);
+        position:absolute;
+        top:948px;
+        left:-87px;
+    }  
+}
+

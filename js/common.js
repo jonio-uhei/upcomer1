@@ -165,6 +165,63 @@ $(function(){
     }
   );
 
+  $('.c-arrow5').hover(
+    function(){
+      $(this).find('.c-arrow5__circle,.c-arrow5__line').css('background-color','#4197c7');
+      $(this).find('.c-arrow5__chevron').css('border-right','8px solid #4197c7');
+      $(this).find('.c-arrow5__chevron').css('border-bottom','8px solid #4197c7');
+      $(this).find('.c-modal5').addClass('u-js-background5');
+      $('.c-arrow5').css('z-index','3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow6,.c-arrow7').css('z-index','2');
+    },
+    function(){
+      $(this).find('.c-arrow5__circle,.c-arrow5__line').css('background-color','#cdcbcb');
+      $(this).find('.c-arrow5__chevron').css('border-right','8px solid #cdcbcb');
+      $(this).find('.c-arrow5__chevron').css('border-bottom','8px solid #cdcbcb');
+      $(this).find('.c-modal5').removeClass('u-js-background5');
+      $('.c-arrow5').removeClass('u-bg3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','1');
+    }
+  );
+
+  $('.c-arrow6').hover(
+    function(){
+      $(this).find('.c-arrow6__circle,.c-arrow6__line').css('background-color','#4197c7');
+      $(this).find('.c-arrow6__chevron').css('border-right','8px solid #4197c7');
+      $(this).find('.c-arrow6__chevron').css('border-bottom','8px solid #4197c7');
+      $(this).find('.c-modal6').addClass('u-js-background6');
+      $('.c-arrow6').css('z-index','3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow7').css('z-index','2');
+    },
+    function(){
+      $(this).find('.c-arrow6__circle,.c-arrow6__line').css('background-color','#cdcbcb');
+      $(this).find('.c-arrow6__chevron').css('border-right','8px solid #cdcbcb');
+      $(this).find('.c-arrow6__chevron').css('border-bottom','8px solid #cdcbcb');
+      $(this).find('.c-modal6').removeClass('u-js-background6');
+      $('.c-arrow6').removeClass('u-bg3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','1');
+    }
+  );
+
+  $('.c-arrow7').hover(
+    function(){
+      $(this).find('.c-arrow7__circle,.c-arrow7__line').css('background-color','#4197c7');
+      $(this).find('.c-arrow7__chevron').css('border-right','8px solid #4197c7');
+      $(this).find('.c-arrow7__chevron').css('border-bottom','8px solid #4197c7');
+      $(this).find('.c-modal7').addClass('u-js-background7');
+      $('.c-arrow7').css('z-index','3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow7').css('z-index','2');
+    },
+    function(){
+      $(this).find('.c-arrow7__circle,.c-arrow7__line').css('background-color','#cdcbcb');
+      $(this).find('.c-arrow7__chevron').css('border-right','8px solid #cdcbcb');
+      $(this).find('.c-arrow7__chevron').css('border-bottom','8px solid #cdcbcb');
+      $(this).find('.c-modal7').removeClass('u-js-background7');
+      $('.c-arrow7').removeClass('u-bg3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','1');
+    }
+  );
+
 
   
 });
