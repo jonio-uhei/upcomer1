@@ -106,4 +106,18 @@
   border-right: 20px solid transparent;
   border-bottom: none;
 }
+
+.c-triangle-worphi6 {
+  border: 100px solid #bfbfbf;
+  width: 0;
+  height: 0;
+  border-bottom: none;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+}
+
+.c-triangle-worphi6__wrap {
+  width: 200px;
+  margin: 30px auto;
+}
 /*# sourceMappingURL=c-triangle.css.map */

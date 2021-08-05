@@ -109,4 +109,10 @@
   width: 25% !important;
   height: 0 !important;
 }
+
+.u-width26 {
+  width: 100px;
+  display: block;
+  margin: 40px auto;
+}
 /*# sourceMappingURL=u-width.css.map */

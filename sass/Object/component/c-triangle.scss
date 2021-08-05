@@ -97,3 +97,15 @@
         
     }
 }
+.c-triangle-worphi6{
+    border:100px solid #bfbfbf;
+    width: 0;
+    height: 0;
+    border-bottom:none;
+    border-right:100px solid transparent;
+    border-left:100px solid transparent;
+    &__wrap{
+        width: 200px;
+        margin:30px auto;
+    }
+}
