@@ -62,29 +62,29 @@ $(function() {
 
 
 //トップページの左右からフェードインするパララックス
-var window_h = $(window).height();
-$("#wh span").text(window_h);
-$(window).on("scroll", function() {
-  var scroll_top = $(window).scrollTop();
-  $(".c-block-field__block1").each(function() {
-    var elem_pos = $(this).offset().top;
-    $(this).find(".box_pos span").text(Math.floor(elem_pos));
-    if (scroll_top >= elem_pos - window_h) {
-      $(this).addClass("u-js-leftfadein");
-    } else {
-      $(this).removeClass("u-js-leftfadein");
-    }
-  });
-  $(".c-block-field__block2").each(function() {
-    var elem_pos = $(this).offset().top;
-    $(this).find(".box_pos span").text(Math.floor(elem_pos));
-    if (scroll_top >= elem_pos - window_h+100) {
-      $(this).addClass("u-js-rightfadein");
-    } else {
-      $(this).removeClass("u-js-rightfadein");
-    }
-  });
-});
+// var window_h = $(window).height();
+// $("#wh span").text(window_h);
+// $(window).on("scroll", function() {
+//   var scroll_top = $(window).scrollTop();
+//   $(".c-block-field__block1").each(function() {
+//     var elem_pos = $(this).offset().top;
+//     $(this).find(".box_pos span").text(Math.floor(elem_pos));
+//     if (scroll_top >= elem_pos - window_h) {
+//       $(this).addClass("u-js-leftfadein");
+//     } else {
+//       $(this).removeClass("u-js-leftfadein");
+//     }
+//   });
+//   $(".c-block-field__block2").each(function() {
+//     var elem_pos = $(this).offset().top;
+//     $(this).find(".box_pos span").text(Math.floor(elem_pos));
+//     if (scroll_top >= elem_pos - window_h+100) {
+//       $(this).addClass("u-js-rightfadein");
+//     } else {
+//       $(this).removeClass("u-js-rightfadein");
+//     }
+//   });
+// });
 
 
 //トップページでマウスオーバーで矢印の色が変わるのとモーダルが出る

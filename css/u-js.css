@@ -109,38 +109,6 @@
   font-size: 20px;
 }
 
-.u-js-left {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
-  opacity: 0;
-  -webkit-transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,transform 5s;
-  transition: opacity 1s,transform 5s,-webkit-transform 5s;
-}
-
-.u-js-leftfadein {
-  opacity: 1;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-}
-
-.u-js-right {
-  -webkit-transform: translate(50px, 0);
-          transform: translate(50px, 0);
-  opacity: 0;
-  -webkit-transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,transform 5s;
-  transition: opacity 1s,transform 5s,-webkit-transform 5s;
-}
-
-.u-js-rightfadein {
-  opacity: 1;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-}
-
 .u-js-topbtn {
   position: fixed;
   right: 10%;

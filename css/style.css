@@ -1192,9 +1192,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .c-block-field__block2 {
@@ -1209,11 +1206,11 @@ a {
 
 .c-block-field__bgc1 {
   width: 54%;
-  height: 70%;
+  height: 42px;
   margin-left: auto;
   margin-right: -9%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   background: -webkit-gradient(linear, left top, right bottom, from(#a0cbde), to(#afe9ce));
   background: linear-gradient(to bottom right, #a0cbde, #afe9ce);
   position: relative;
@@ -1230,14 +1227,16 @@ a {
 .c-block-field__bgc1-img {
   width: 38%;
   z-index: 4;
+  display: block;
+  margin-top: 20px;
 }
 
 .c-block-field__bgc1-content {
   font-size: 16px;
   line-height: 2em;
   margin-top: 30px;
-  width: 64%;
-  margin-left: 12%;
+  width: 32%;
+  margin-left: auto;
   z-index: 2;
 }
 
@@ -1252,7 +1251,7 @@ a {
 }
 
 .c-block-field__bgc2-img {
-  width: 38%;
+  width: 32%;
   z-index: 3;
 }
 
@@ -1266,16 +1265,16 @@ a {
   font-size: 16px;
   line-height: 2em;
   margin-top: 30px;
-  width: 64%;
-  margin-left: 26%;
+  width: 32%;
 }
 
 .c-block-field__bgc2 {
   width: 54%;
+  padding-top: 10px;
   position: relative;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin-left: -9%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 24%;
   background: -webkit-gradient(linear, left top, right bottom, from(#a0cbde), to(#afe9ce));
   background: linear-gradient(to bottom right, #a0cbde, #afe9ce);
 }
@@ -3135,38 +3134,6 @@ a {
   margin-top: 40px;
   line-height: 2em;
   font-size: 20px;
-}
-
-.u-js-left {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
-  opacity: 0;
-  -webkit-transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,transform 5s;
-  transition: opacity 1s,transform 5s,-webkit-transform 5s;
-}
-
-.u-js-leftfadein {
-  opacity: 1;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-}
-
-.u-js-right {
-  -webkit-transform: translate(50px, 0);
-          transform: translate(50px, 0);
-  opacity: 0;
-  -webkit-transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,-webkit-transform 5s;
-  transition: opacity 1s,transform 5s;
-  transition: opacity 1s,transform 5s,-webkit-transform 5s;
-}
-
-.u-js-rightfadein {
-  opacity: 1;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
 }
 
 .u-js-topbtn {
