@@ -1,16 +1,12 @@
-.u-js-background1{
+.u-js-background1,.u-js-background2,.u-js-background3,
+.u-js-background4{
     background:#cfedff;
     display: block;
-}
-.u-js-text-change1,.u-js-text-change2,.u-js-text-change3,
-.u-js-text-change4,.u-js-text-change5,.u-js-text-change6,
-.u-js-text-change7,.u-js-text-change8{
-    
+    z-index:-1;
 }
 .u-js-text-change1,.u-js-text-change2,.u-js-text-change3,
 .u-js-text-change4,.u-js-text-change5,.u-js-text-change7,
 .u-js-text-change8{  
-    // width: 140px;
     &:hover{
         color:#fff;
         padding: 5px;
@@ -18,33 +14,6 @@
         border-radius: 20px;
     }
 }
-// .u-js-text-change2{
-//     width: 80px;
-//     &:hover{
-//         color:#fff;
-//         padding: 5px;
-//         background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
-//         border-radius: 20px;
-//     }
-// }
-// .u-js-text-change3{
-//     width: 100px;
-//     &:hover{
-//         color:#fff;
-//         padding: 5px;
-//         background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
-//         border-radius: 20px;
-//     }
-// }
-// .u-js-text-change4{
-//     width: 120px;
-//     &:hover{
-//         color:#fff;
-//         padding: 5px;
-//         background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
-//         border-radius: 20px;
-//     }
-// }
 .u-js-chart{
     width: 50%;
     margin-bottom: 60px;

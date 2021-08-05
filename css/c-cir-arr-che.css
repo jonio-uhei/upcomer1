@@ -3,7 +3,6 @@
   top: 130px;
   left: 5%;
   display: block;
-  z-index: 2;
 }
 
 .c-arrow1__circle {
@@ -91,7 +90,7 @@
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: absolute;
-  top: 409px;
+  top: 345px;
   left: -87px;
 }
 

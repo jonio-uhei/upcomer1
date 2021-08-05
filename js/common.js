@@ -87,26 +87,6 @@ $(window).on("scroll", function() {
 });
 
 
-
-//ここからスムーススクロール
-// $(function(){
-//   // #で始まるアンカーをクリックした場合に処理
-//       $('a[href^="#"]').click(function() {
-//           // スクロールの速度
-//           var speed = 500; // ミリ秒
-//           // 移動先を取得
-//           var href= $(this).attr("href");
-//           var target = $(href == "#" || href == "" ? 'html' : href);
-//           // 移動先を数値で取得
-//           var position = target.offset().top;
-//           // スムーススクロール
-//           $('body,html').animate({scrollTop:position}, speed, 'swing');
-//           return false;
-//       });
-//   });
-//ここまでスムーススクロール
-
-
 //トップページでマウスオーバーで矢印の色が変わるのとモーダルが出る
 $(function(){
   $('.c-arrow1').hover(
@@ -114,8 +94,9 @@ $(function(){
       $(this).find('.c-arrow1__circle,.c-arrow1__line').css('background-color','#4197c7');
       $(this).find('.c-arrow1__chevron').css('border-right','8px solid #4197c7');
       $(this).find('.c-arrow1__chevron').css('border-bottom','8px solid #4197c7');
-      
       $(this).find('.c-modal1').addClass('u-js-background1');
+      $('.c-arrow1').css('z-index','3');
+      $('.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','2');
     },
     function(){
       $(this).find('.c-arrow1__circle,.c-arrow1__line').css('background-color','#cdcbcb');
@@ -123,25 +104,67 @@ $(function(){
       $(this).find('.c-arrow1__chevron').css('border-bottom','8px solid #cdcbcb');
       $('.c-arrow1').removeClass('u-bg1');
       $(this).find('.c-modal1').removeClass('u-js-background1');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','1');
     }
   );
 
+  $('.c-arrow2').hover(
+    function(){
+      $(this).find('.c-arrow2__circle,.c-arrow2__line').css('background-color','#4197c7');
+      $(this).find('.c-arrow2__chevron').css('border-right','8px solid #4197c7');
+      $(this).find('.c-arrow2__chevron').css('border-bottom','8px solid #4197c7');
+      $(this).find('.c-modal2').addClass('u-js-background2');
+      $('.c-arrow2').css('z-index','3');
+      $('.c-arrow1,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','2');
+    },
+    function(){
+      $(this).find('.c-arrow2__circle,.c-arrow2__line').css('background-color','#cdcbcb');
+      $(this).find('.c-arrow2__chevron').css('border-right','8px solid #cdcbcb');
+      $(this).find('.c-arrow2__chevron').css('border-bottom','8px solid #cdcbcb');
+      $(this).find('.c-modal2').removeClass('u-js-background2');
+      $('.c-arrow2').removeClass('u-bg2');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','1');
+    }
+  );
 
-  // $('.c-arrow1').hover(
-  //   function(){
-  //     $('.c-arrow2').css('z-index','-3');
-  //   },
-   //  function(){
-   //    $('.c-arrow1').css('z-index','0');
-   //  }
-  // );
+  $('.c-arrow3').hover(
+    function(){
+      $(this).find('.c-arrow3__circle,.c-arrow3__line').css('background-color','#4197c7');
+      $(this).find('.c-arrow3__chevron').css('border-right','8px solid #4197c7');
+      $(this).find('.c-arrow3__chevron').css('border-bottom','8px solid #4197c7');
+      $(this).find('.c-modal3').addClass('u-js-background3');
+      $('.c-arrow3').css('z-index','3');
+      $('.c-arrow1,.c-arrow2,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','2');
+    },
+    function(){
+      $(this).find('.c-arrow3__circle,.c-arrow3__line').css('background-color','#cdcbcb');
+      $(this).find('.c-arrow3__chevron').css('border-right','8px solid #cdcbcb');
+      $(this).find('.c-arrow3__chevron').css('border-bottom','8px solid #cdcbcb');
+      $(this).find('.c-modal3').removeClass('u-js-background3');
+      $('.c-arrow3').removeClass('u-bg3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','1');
+    }
+  );
 
-//   $('.c-arrow1').hover({
-//     function(){
-//       $('.c-arrow').addClass('u-bg');
-//       $('.c-arrow1').css('z-index','3');
-//     }
-//   })
+  $('.c-arrow4').hover(
+    function(){
+      $(this).find('.c-arrow4__circle,.c-arrow4__line').css('background-color','#4197c7');
+      $(this).find('.c-arrow4__chevron').css('border-right','8px solid #4197c7');
+      $(this).find('.c-arrow4__chevron').css('border-bottom','8px solid #4197c7');
+      $(this).find('.c-modal4').addClass('u-js-background4');
+      $('.c-arrow4').css('z-index','3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','2');
+    },
+    function(){
+      $(this).find('.c-arrow4__circle,.c-arrow4__line').css('background-color','#cdcbcb');
+      $(this).find('.c-arrow4__chevron').css('border-right','8px solid #cdcbcb');
+      $(this).find('.c-arrow4__chevron').css('border-bottom','8px solid #cdcbcb');
+      $(this).find('.c-modal4').removeClass('u-js-background4');
+      $('.c-arrow4').removeClass('u-bg3');
+      $('.c-arrow1,.c-arrow2,.c-arrow3,.c-arrow4,.c-arrow5,.c-arrow6,.c-arrow7').css('z-index','1');
+    }
+  );
+
 
   
 });

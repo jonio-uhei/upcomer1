@@ -1,6 +1,8 @@
-.u-js-background1 {
+.u-js-background1, .u-js-background2, .u-js-background3,
+.u-js-background4 {
   background: #cfedff;
   display: block;
+  z-index: -1;
 }
 
 .u-js-text-change1:hover, .u-js-text-change2:hover, .u-js-text-change3:hover,
