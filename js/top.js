@@ -1,4 +1,4 @@
-//ハンバーガーメニュー
+//トップページのハンバーガーメニュー
 $(function(){
   $('.u-js-burger-btn').on('click',function(){
     $('.u-js-burger-btn').toggleClass('close');

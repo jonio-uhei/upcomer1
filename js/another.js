@@ -1,0 +1,14 @@
+//ハンバーガーメニュー
+$(function(){
+    $('.u-js-burger-btn').on('click',function(){
+      $('.u-js-burger-btn').toggleClass('close');
+      $('.u-js-nav-wrapper').fadeToggle(500);
+      $('.u-js-nav-item:first-child').toggleClass('u-js-move1');
+      $('.u-js-nav-item:nth-child(2)').toggleClass('u-js-move2');
+      $('.u-js-nav-item:nth-child(3)').toggleClass('u-js-move3');
+      $('.u-js-nav-item:nth-child(4)').toggleClass('u-js-move4');
+      $('.u-js-nav-item:nth-child(5)').toggleClass('u-js-move5');
+      $('.u-js-nav-item:nth-child(6)').toggleClass('u-js-move6');
+      $('.u-js-nav-item:nth-child(7)').toggleClass('u-js-move7');
+    });
+  });
