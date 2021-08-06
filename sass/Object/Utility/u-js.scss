@@ -1,3 +1,4 @@
+//トップページのOBJECTIVE RESEARCH
 .u-js-background1,.u-js-background2,.u-js-background3,
 .u-js-background4,.u-js-background5,.u-js-background6,
 .u-js-background7{
@@ -5,6 +6,9 @@
     display: block;
     z-index:-1;
 }
+
+
+//トップページのヘッダー
 .u-js-text-change1,.u-js-text-change2,.u-js-text-change3,
 .u-js-text-change4,.u-js-text-change5,.u-js-text-change7,
 .u-js-text-change8{  
@@ -15,10 +19,16 @@
         border-radius: 20px;
     }
 }
+
+
+//トップページのチャート
 .u-js-chart{
     width: 50%;
     margin-bottom: 60px;
 }
+
+
+//kitのタブの切り替え
 .u-js-active{
     background:#333!important;
     width: 200px;
@@ -52,6 +62,9 @@
 .u-show{
     display: block;
 }
+
+
+//トップページの機能
 .u-js-modal2,.u-js-modal3,.u-js-modal4,
 .u-js-modal5,.u-js-modal6,.u-js-modal7,.u-js-modal8,
 .u-js-modal9,.u-js-modal10,.u-js-modal11,.u-js-modal12,
@@ -134,3 +147,127 @@
     opacity: 1;
     visibility: visible;
 }
+
+
+//トップページのハンバーガーメニュー
+.u-js-burger-btn{
+    display: none;
+    @media screen and (max-width:767px){
+        display: block;
+        width: 39px;
+        height: 39px;
+        position:relative;
+        z-index:7;
+    }
+}
+.u-js-bar{
+    @media screen and (max-width:767px){
+        width: 20px;
+        height: 1px;
+        display: block;
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        background-color:#000;
+        transition-duration:.7s;
+        &__top{
+            top:10px;
+        }
+        &__mid{
+            top:50%;
+            transform:translate(-50%);
+        }
+        &__bottom{
+            bottom:10px;
+        }
+    }
+}
+.close .u-js-bar__top{
+    transform:translate(-50%,10px) rotate(45deg);
+    transition-duration:.3s;
+    background-color:#fff;
+}
+.close .u-js-bar__mid{
+    opacity:0;
+    transition-duration:.3s;
+}
+.close .u-js-bar__bottom{
+    transform:translate(-50%,-8px) rotate(-45deg);
+    transition-duration:.3s;
+    background-color:#fff
+}
+.u-js-nav-wrapper{
+    @media screen and (max-width:787px){
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:6;
+        background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
+        overflow-y: scroll;
+        -ms-overflow-style: none; 
+    }
+}
+.u-js-nav-wrapper::-webkit-scrollbar {
+    display:none;
+}
+
+
+
+
+.u-js-header-nav{
+    @media screen and (max-width:787px){
+        display: block;
+        position:absolute;
+        top:10%;
+        left:23%;
+        transform:translate(-50%);
+        text-align: center;
+    }
+}
+
+        
+
+
+
+
+
+
+.u-js-nav-item{
+    margin-right: 0;
+    margin-left: 40px;
+    color:#fff;
+    transform:translateX(100px)!important;
+}
+.u-js-move1{
+    transform:translateX(0px)!important;
+    transition-duration:.7s!important;
+}
+.u-js-move2{
+    transform:translateX(0px)!important;
+    transition-duration:1.1s!important;
+}
+.u-js-move3{
+    transform:translateX(0px)!important;
+    transition-duration:1.5s!important;
+}
+.u-js-move4{
+    transform:translateX(0px)!important;
+    transition-duration:1.9s!important;
+}
+.u-js-move5{
+    transform:translateX(0px)!important;
+    transition-duration:2.3s!important;
+}
+.u-js-move6{
+    transform:translateX(0px)!important;
+    transition-duration:2.7s!important;
+}
+.u-js-move7{
+    transform:translateX(0px)!important;
+    transition-duration:3.1s!important;
+}
+
+
