@@ -9,7 +9,6 @@
     @media screen and (max-width:767px){
         flex-direction:column;
         padding-left: 0;
-
     }
     &>li{
         width: 140px;
@@ -51,12 +50,11 @@
         margin-left:auto;
     }
     &__mouseover{
-        padding-bottom: 30px;
+        padding-bottom: 60px;
         li{
             height: 0;
             overflow: hidden;
             transition: .5s;
-            // padding-bottom: 30px;
             &:hover{
                 height: 15px;
                 line-height:15px;
@@ -120,8 +118,7 @@
         border: 1px solid #000;
         border-radius: 20px;
         padding: 20px 0px;
-        // width: 270px;
-        width: 200px;
+        width: 180px;
         margin-bottom: 70px;
     }
     &__functions-title{
@@ -129,7 +126,6 @@
         text-align: center;
     }
     &__functions-img{
-        // width: 200px;
         width: 110px;
         display: block;
         margin-left:auto;

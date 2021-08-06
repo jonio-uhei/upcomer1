@@ -76,7 +76,7 @@
 }
 
 .c-flex-nav__mouseover {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .c-flex-nav__mouseover li {
@@ -161,7 +161,7 @@
   border: 1px solid #000;
   border-radius: 20px;
   padding: 20px 0px;
-  width: 200px;
+  width: 180px;
   margin-bottom: 70px;
 }
 

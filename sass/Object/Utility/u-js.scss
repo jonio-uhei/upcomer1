@@ -213,10 +213,6 @@
 .u-js-nav-wrapper::-webkit-scrollbar {
     display:none;
 }
-
-
-
-
 .u-js-header-nav{
     @media screen and (max-width:787px){
         display: block;
@@ -227,14 +223,6 @@
         text-align: center;
     }
 }
-
-        
-
-
-
-
-
-
 .u-js-nav-item{
     margin-right: 0;
     margin-left: 40px;
@@ -269,5 +257,6 @@
     transform:translateX(0px)!important;
     transition-duration:3.1s!important;
 }
+
 
 

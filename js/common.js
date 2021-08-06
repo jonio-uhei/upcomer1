@@ -377,179 +377,260 @@ $(function(){
 });
 
 
-
 //トップページの4つの円グラフの左上
-var ctx = document.getElementById("graph-area1").getContext('2d');
-var myChart = new Chart(ctx, {
-  type: 'doughnut',
-  data: {
-   labels: ["上場", "未上場"],
-    datasets: [{
-      backgroundColor: [
-        "#fff33f",
-        "#f39800",
-      ],
-      data: [32 , 68]
-    }]
-  },
-  options: {
-    maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
-    //グラフのタイトル
-    title:{
-      display:true,
-      text:'上場区分' //タイトル
-    },
-    plugins: {
-      labels: {
-        render: 'percentage',
-        fontColor: 'white',
-        fontSize: 19
-      }
-    },
-    tooltips: {
-      enabled: true,
-      callbacks: {
-          label: function(tooltipItem, data){
-              return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
-          }
-      }
-    },
-    
-  }
+jQuery(function($){	
+	var myLabels = [
+		"上場", "未上場"
+	];
+	var myDatasets = [{
+		backgroundColor: [
+			"#fff33f","#f39800",
+		],
+		data: [
+			32 , 68
+		]
+	}];
+	var config = {
+		type: 'doughnut',
+		data: {
+			labels: myLabels,
+			datasets: myDatasets
+		},
+    options: {
+      maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
+      title:{
+        display:true,
+        text:'上場区分' //タイトル
+      },
+      plugins: {
+        labels: {
+          render: 'percentage',
+          fontColor: 'white',
+          fontSize: 19
+        }
+      },
+      tooltips: {
+        enabled: true,
+        callbacks: {
+            label: function(tooltipItem, data){
+                return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
+            }
+        }
+      },
+    }
+	};
+	function conditional(id){
+		var docTop = $(window).scrollTop();
+		var docBottom = docTop + $(window).height();
+		var elemTop = $(id).offset().top;
+		var elemBottom = elemTop + $(id).height();
+		return (elemTop <= docBottom) && (docTop <= elemBottom);
+	}
+	var draw = false;
+	$(window).on('scroll', function() {
+		if(conditional("#graph-area1")){ 
+			if(!draw){ 
+				var ctx = document.getElementById("graph-area1");
+				var myChart = new Chart(ctx, config);
+				draw = true;
+			}
+		}else{ 
+			draw = false;
+		}
+	});
 });
 
 
 //トップページの4つの円グラフの右上
-var ctx = document.getElementById("graph-area2").getContext('2d');
-var myChart = new Chart(ctx, {
-  type: 'doughnut',
-  data: {
-   labels: ["東証一部", "東証二部", "JASDAQ"],
-    datasets: [{
-      backgroundColor: [
-        "#fff33f",
-        "#f39800",
-        "#009e96"
-      ],
-      data: [88, 6, 6]
-    }]
-  },
-  options: {
-   maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
-   //グラフのタイトル
-    title:{
-      display:true,
-      text:'上場分類' //タイトル
-    },
-    plugins: {
-      labels: {
-        render: 'percentage',
-        fontColor: 'white',
-        fontSize: 19
-      }
-    },
-    tooltips: {
-      enabled: true,
-      callbacks: {
-          label: function(tooltipItem, data){
-              return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
-          }
-      }
+jQuery(function($){	
+	var myLabels = [
+		"東証一部", "東証二部", "JASDAQ"
+	];
+	var myDatasets = [{
+		backgroundColor: [
+			"#fff33f","#f39800","#009e96"
+		],
+		data: [
+			88, 6, 6
+		]
+	}];
+	var config = {
+		type: 'doughnut',
+		data: {
+			labels: myLabels,
+			datasets: myDatasets
+		},
+    options: {
+      maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
+      //グラフのタイトル
+      title:{
+        display:true,
+        text:'上場区分' //タイトル
+      },
+      plugins: {
+        labels: {
+          render: 'percentage',
+          fontColor: 'white',
+          fontSize: 19
+        }
+      },
+      tooltips: {
+        enabled: true,
+        callbacks: {
+            label: function(tooltipItem, data){
+                return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
+            }
+        }
+      },
     }
-   }
+	};
+	function conditional(id){
+		var docTop = $(window).scrollTop();
+		var docBottom = docTop + $(window).height();
+		var elemTop = $(id).offset().top;
+		var elemBottom = elemTop + $(id).height();
+		return (elemTop <= docBottom) && (docTop <= elemBottom);
+	}
+	var draw = false;
+	$(window).on('scroll', function() {
+		if(conditional("#graph-area2")){ 
+			if(!draw){ 
+				var ctx = document.getElementById("graph-area2");
+				var myChart = new Chart(ctx, config);
+				draw = true;
+			}
+		}else{ 
+			draw = false;
+		}
+	});
 });
 
 
 //トップページの4つの円グラフの左下
-var ctx = document.getElementById("graph-area3").getContext('2d');
-var myChart = new Chart(ctx, {
-  type: 'doughnut',
-  data: {
-   labels: ["〜300", "301〜500", "501〜1000","1001〜3000","3001〜5000","5001〜10000","10001〜"],
-    datasets: [{
-      backgroundColor: [
-        "#fff33f",
-        "#f39800",
-        "#009e96",
-        "#23fcf9",
-        "#fc237a",
-        "#fc23ac",
-        "#ea23fc"
-      ],
-      data: [19, 16, 26, 25, 6, 4, 4]
-    }]
-  },
-  options: {
-   maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
-   //グラフのタイトル
-    title:{
-      display:true,
-      text:'従業員数' //タイトル
-    },
-    plugins: {
-      labels: {
-        render: 'percentage',
-        fontColor: 'white',
-        fontSize: 19
-      }
-    },
-    tooltips: {
-      enabled: true,
-      callbacks: {
-          label: function(tooltipItem, data){
-              return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
-          }
-      }
+jQuery(function($){	
+	var myLabels = [
+		"〜300", "301〜500", "501〜1000","1001〜3000","3001〜5000","5001〜10000","10001〜"
+	];
+	var myDatasets = [{
+		backgroundColor: [
+			"#fff33f","#f39800","#009e96","#23fcf9","#fc237a","#fc23ac","#ea23fc"
+		],
+		data: [
+			19, 16, 26, 25, 6, 4, 4
+		]
+	}];
+	var config = {
+		type: 'doughnut',
+		data: {
+			labels: myLabels,
+			datasets: myDatasets
+		},
+    options: {
+      maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
+      //グラフのタイトル
+      title:{
+        display:true,
+        text:'従業員数' //タイトル
+      },
+      plugins: {
+        labels: {
+          render: 'percentage',
+          fontColor: 'white',
+          fontSize: 19
+        }
+      },
+      tooltips: {
+        enabled: true,
+        callbacks: {
+            label: function(tooltipItem, data){
+                return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
+            }
+        }
+      },
     }
-   }
+	};
+	function conditional(id){
+		var docTop = $(window).scrollTop();
+		var docBottom = docTop + $(window).height();
+		var elemTop = $(id).offset().top;
+		var elemBottom = elemTop + $(id).height();
+		return (elemTop <= docBottom) && (docTop <= elemBottom);
+	}
+	var draw = false;
+	$(window).on('scroll', function() {
+		if(conditional("#graph-area3")){ 
+			if(!draw){ 
+				var ctx = document.getElementById("graph-area3");
+				var myChart = new Chart(ctx, config);
+				draw = true;
+			}
+		}else{ 
+			draw = false;
+		}
+	});
 });
 
 
 //トップページの4つの円グラフの右下
-var ctx = document.getElementById("graph-area4").getContext('2d');
-var myChart = new Chart(ctx, {
-  type: 'doughnut',
-  data: {
-   labels: ["情報通信", "卸売小売", "製造","不動産","インフラ","建設","その他サービス","金融","宿泊，飲食","運輸","医療，福祉"],
-    datasets: [{
-      backgroundColor: [
-        "#fff33f",
-        "#f39800",
-        "#009e96",
-        "#23fcf9",
-        "#fc237a",
-        "#fc23ac",
-        "#ea23fc",
-        "#f7331e",
-        "#ede7e6",
-        "#13f038",
-        "#3563f0"
-      ],
-      data: [11, 22, 31, 4, 3, 11, 4, 6, 4, 3, 1]
-    }]
-  },
-  options: {
-   maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
-   //グラフのタイトル
-    title:{
-      display:true,
-      text:'業種' //タイトル
-    },
-    plugins: {
-      labels: {
-        render: 'percentage',
-        fontColor: 'white',
-        fontSize: 19
-      }
-    },
-    tooltips: {
-      enabled: true,
-      callbacks: {
-          label: function(tooltipItem, data){
-              return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
-          }
-      }
+jQuery(function($){	
+	var myLabels = [
+		"情報通信", "卸売小売", "製造","不動産","インフラ","建設","その他サービス","金融","宿泊，飲食","運輸","医療，福祉"
+	];
+	var myDatasets = [{
+		backgroundColor: [
+			"#fff33f","#f39800","#009e96","#23fcf9","#fc237a","#fc23ac","#ea23fc","#f7331e","#ede7e6","#13f038","#3563f0"
+		],
+		data: [
+			11, 22, 31, 4, 3, 11, 4, 6, 4, 3, 1
+		]
+	}];
+	var config = {
+		type: 'doughnut',
+		data: {
+			labels: myLabels,
+			datasets: myDatasets
+		},
+    options: {
+      maintainAspectRatio: false,     //これでチャートのサイズのしていができるようになる
+      //グラフのタイトル
+      title:{
+        display:true,
+        text:'業種' //タイトル
+      },
+      plugins: {
+        labels: {
+          render: 'percentage',
+          fontColor: 'white',
+          fontSize: 19
+        }
+      },
+      tooltips: {
+        enabled: true,
+        callbacks: {
+            label: function(tooltipItem, data){
+                return data.labels[tooltipItem.index] + ":" + data.datasets[0].data[tooltipItem.index] + "%";
+            }
+        }
+      },
     }
-   }
+	};
+	function conditional(id){
+		var docTop = $(window).scrollTop();
+		var docBottom = docTop + $(window).height();
+		var elemTop = $(id).offset().top;
+		var elemBottom = elemTop + $(id).height();
+		return (elemTop <= docBottom) && (docTop <= elemBottom);
+	}
+	var draw = false;
+	$(window).on('scroll', function() {
+		if(conditional("#graph-area4")){ 
+			if(!draw){ 
+				var ctx = document.getElementById("graph-area4");
+				var myChart = new Chart(ctx, config);
+				draw = true;
+			}
+		}else{ 
+			draw = false;
+		}
+	});
 });
-
