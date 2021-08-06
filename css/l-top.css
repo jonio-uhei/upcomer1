@@ -76,7 +76,7 @@
 .l-top-main__strong-link {
   display: block;
   width: 372px;
-  margin: 100px auto 0;
+  margin: 130px auto 0;
   background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
   background: linear-gradient(to bottom right, #4197b6, #63de9f);
   color: #fff;
@@ -100,8 +100,9 @@
 
 .l-top-main__strong-img {
   width: 50%;
-  margin: 70px auto 0;
+  margin: 0 auto;
   display: block;
+  padding-top: 29%;
 }
 
 .l-top-main__research-block {

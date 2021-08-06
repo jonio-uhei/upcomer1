@@ -63,7 +63,7 @@
     &__strong-link{
         display: block;
         width: 372px;
-        margin:100px auto 0;
+        margin:130px auto 0;
         background:linear-gradient(to bottom right,#4197b6 ,#63de9f);
         color:#fff;
         border-radius:20px;
@@ -83,8 +83,9 @@
     }
     &__strong-img{
         width: 50%;
-        margin:70px auto 0;
+        margin: 0 auto;
         display: block;
+        padding-top: 29%;
     }
     &__research-block{
         position:absolute;
