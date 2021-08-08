@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/Object/Utility/u-border.scss"
+    ],
+    "names": [],
+    "file": "u-border.css"
+}

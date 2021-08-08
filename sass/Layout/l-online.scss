@@ -1,0 +1,117 @@
+.l-online-wrap{
+    width: 70%;
+    margin:80px auto;
+    &__border{
+        width: 250px;
+        padding: 4px;
+        text-align: center;
+        background:linear-gradient(to bottom right,#a0cbde ,#afe9ce);
+    }
+    &__title{
+        padding: 10px;
+        background-color: #fff;
+    }
+    &__lists{
+        display: flex;
+        justify-content:space-around;
+        margin-top: 20px;
+    }
+    &__content{
+        line-height:2em;
+        margin-top: 20px;
+        text-align:initial;
+    }
+    &__list{
+        width: 30%;
+        text-align: center;
+    }
+}
+.l-online-scene-wrap{
+    width: 70%;
+    margin:80px auto;
+    display: flex;
+    justify-content:space-around;
+    &__img{
+        display: block;
+        height: 600px;
+    }
+    &__block{
+        display: flex;
+        margin-top: 5px;
+    }
+    &__title{
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    &__content{
+        margin-top: 10px;
+        line-height:2em;
+        margin-left: 30px;
+    }
+    &__right{
+        width: 70%;
+    }
+}
+.l-online-construct{
+    width: 51%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    &__title-circle{
+        position:absolute;
+        top:30px;
+    }
+    &__left{
+        position:relative;
+        width: 200px;
+    }
+    &__border-top{
+        position:relative;
+        width: 200px;
+        height: 200px;
+        background-color:#00ff99;
+        border-radius:100px;
+    }
+    &__border-under{
+        position:absolute;
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        border-radius:75px;
+    }
+    &__title{
+        font-size: 20px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        line-height:2em;
+        text-align: center;
+        span{
+            font-weight: bold;
+        }
+    }
+    &__right{
+        width: 500px;
+        margin-top: 30px;
+    }
+    &__right-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    &__wrap{
+        display: flex;
+        margin-top: 20px;
+    }
+    &__content{
+        margin-left: 10px;
+        line-height:2em;
+    }
+}
+
+
+
+

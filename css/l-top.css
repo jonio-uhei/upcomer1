@@ -212,6 +212,15 @@
   display: inline-block;
   margin-top: 40px;
   margin-left: 40px;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.l-top-footer__link:hover {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
 }
 
 .l-top-footer__field {
