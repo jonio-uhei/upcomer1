@@ -27,7 +27,7 @@
 
 .l-online-wrap__content {
   line-height: 2em;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: initial;
 }
 
@@ -36,40 +36,57 @@
   text-align: center;
 }
 
-.l-online-scene-wrap {
+.l-online-wrap__block-title {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #009999;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-online-scene {
   width: 70%;
   margin: 80px auto;
+}
+
+.l-online-scene__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 40px;
 }
 
-.l-online-scene-wrap__img {
+.l-online-scene__wrap-img {
   display: block;
   height: 600px;
 }
 
-.l-online-scene-wrap__block {
+.l-online-scene__wrap-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 5px;
 }
 
-.l-online-scene-wrap__title {
+.l-online-scene__wrap-title {
   font-weight: bold;
   margin-left: 10px;
 }
 
-.l-online-scene-wrap__content {
+.l-online-scene__wrap-content {
   margin-top: 10px;
   line-height: 2em;
   margin-left: 30px;
 }
 
-.l-online-scene-wrap__right {
+.l-online-scene__wrap-right {
   width: 70%;
 }
 
@@ -142,11 +159,25 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 20px;
 }
 
 .l-online-construct__content {
   margin-left: 10px;
   line-height: 2em;
+}
+
+.l-online-cardgame {
+  width: 70%;
+  margin: 70px auto;
+}
+
+.l-online-cardgame__img {
+  width: 80%;
+  display: block;
+  margin: 40px auto;
 }
 /*# sourceMappingURL=l-online.css.map */

@@ -18,37 +18,52 @@
     }
     &__content{
         line-height:2em;
-        margin-top: 20px;
+        margin-top: 10px;
         text-align:initial;
     }
     &__list{
         width: 30%;
         text-align: center;
     }
+    &__block-title{
+        font-size: 20px;
+        text-align: center;
+        color:#fff;
+        background-color: #009999;
+        width: 150px;
+        height: 150px;
+        line-height:150px;
+        border-radius:75px;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
-.l-online-scene-wrap{
+.l-online-scene{
     width: 70%;
     margin:80px auto;
-    display: flex;
-    justify-content:space-around;
-    &__img{
+    &__wrap{
+        display: flex;
+        justify-content:space-around;
+        margin-top: 40px;
+    }
+    &__wrap-img{
         display: block;
         height: 600px;
     }
-    &__block{
+    &__wrap-block{
         display: flex;
         margin-top: 5px;
     }
-    &__title{
+    &__wrap-title{
         font-weight: bold;
         margin-left: 10px;
     }
-    &__content{
+    &__wrap-content{
         margin-top: 10px;
         line-height:2em;
         margin-left: 30px;
     }
-    &__right{
+    &__wrap-right{
         width: 70%;
     }
 }
@@ -104,11 +119,21 @@
     }
     &__wrap{
         display: flex;
+        align-items:center;
         margin-top: 20px;
     }
     &__content{
         margin-left: 10px;
         line-height:2em;
+    }
+}
+.l-online-cardgame{
+    width: 70%;
+    margin:70px auto;
+    &__img{
+        width: 80%;
+        display: block;
+        margin:40px auto;
     }
 }
 
