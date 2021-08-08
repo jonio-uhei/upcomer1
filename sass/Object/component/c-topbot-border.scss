@@ -1,0 +1,15 @@
+.c-topbot-border{
+    width: 55%;
+    margin:70px auto 0;
+    &__top,&__bottom{
+        height: 10px;
+        background: linear-gradient(to bottom right, #4197b6, #63de9f);
+    }
+    &__title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

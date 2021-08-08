@@ -9,22 +9,6 @@
   margin-top: 70px;
 }
 
-.l-worphi__area-border {
-  width: 55%;
-  height: 10px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
-  background: linear-gradient(to bottom right, #4197b6, #63de9f);
-  margin: 0 auto;
-}
-
-.l-worphi__area-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 .l-worphi-field {
   display: -webkit-box;
   display: -ms-flexbox;

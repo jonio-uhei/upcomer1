@@ -1,0 +1,10 @@
+.c-heading-border{
+    width: 250px;
+    padding: 4px;
+    text-align: center;
+    background:linear-gradient(to bottom right,#a0cbde ,#afe9ce);
+    &__title{
+        padding: 10px;
+        background-color: #fff;
+    }
+}

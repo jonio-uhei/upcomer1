@@ -11,4 +11,16 @@ $(function(){
       $('.u-js-nav-item:nth-child(6)').toggleClass('u-js-move6');
       $('.u-js-nav-item:nth-child(7)').toggleClass('u-js-move7');
     });
+});
+
+$(function(){
+  let tabs = $(".u-js-tab");
+  let blocks = $(".u-none")
+  $(".u-js-tab").on("click",function(){
+    $(".u-js-active").removeClass("u-js-active");
+    $(this).addClass("u-js-active");
+    const index = tabs.index(this);
+    $(".u-js-content").removeClass("u-js-show").eq(index).addClass("u-js-show");
+    $(".u-none").removeClass("u-show").eq(index).addClass("u-show");
   });
+});

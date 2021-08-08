@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAA;EACb,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,MAAM;EAClB,UAAU,EAAC,kDAAiD;CAK/D;;AAJI,AAAD,wBAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,IAAI;CACzB",
+    "sources": [
+        "../sass/Object/component/c-heading-border.scss"
+    ],
+    "names": [],
+    "file": "c-heading-border.css"
+}

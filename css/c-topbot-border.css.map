@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAC,WAAW;CAYrB;;AAXI,AAAD,qBAAM,EAAE,wBAAQ,CAAA;EACZ,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,kDAAkD;CACjE;;AACA,AAAD,uBAAQ,CAAA;EACJ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "../sass/Object/component/c-topbot-border.scss"
+    ],
+    "names": [],
+    "file": "c-topbot-border.css"
+}

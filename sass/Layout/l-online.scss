@@ -1,16 +1,6 @@
 .l-online-wrap{
     width: 70%;
     margin:80px auto;
-    &__border{
-        width: 250px;
-        padding: 4px;
-        text-align: center;
-        background:linear-gradient(to bottom right,#a0cbde ,#afe9ce);
-    }
-    &__title{
-        padding: 10px;
-        background-color: #fff;
-    }
     &__lists{
         display: flex;
         justify-content:space-around;

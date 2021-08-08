@@ -1,0 +1,19 @@
+.c-topbot-border {
+  width: 55%;
+  margin: 70px auto 0;
+}
+
+.c-topbot-border__top, .c-topbot-border__bottom {
+  height: 10px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#4197b6), to(#63de9f));
+  background: linear-gradient(to bottom right, #4197b6, #63de9f);
+}
+
+.c-topbot-border__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=c-topbot-border.css.map */
