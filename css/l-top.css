@@ -197,6 +197,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 40px;
 }
 
 .l-top-footer__img {
@@ -210,7 +211,7 @@
   border: 2px solid #7f7f7f;
   padding: 10px;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 40px;
   -webkit-transition-duration: .7s;
           transition-duration: .7s;
